@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+
+    <string name="yemen_btn">Yemen</string>
+    <string name="egypt_btn">Egypt</string>
+    <string name="usa_btn">USA</string>
+
+
+    <string name="yemen_question1_1_1"> sanaa is in yemen </string>
+    <string name="yemen_question1_1_2"> aden is in yemen </string>
+    <string name="yemen_question1_1_3"> mosccue is in yemen </string>
+
+    <string name="yemen_question1_2_1">aden is not in yemen</string>
+    <string name="yemen_question1_2_2">sanaa is not in yemen</string>
+    <string name="yemen_question1_2_3">qat is yemeni tree</string>
+
+
+    <string name="yemen_question1_3_1">yemen is not a country</string>
+    <string name="yemen_question1_3_2">scotra is a yemeni island</string>
+    <string name="yemen_question1_3_3">yemen is located in arabic island</string>
+
+    <string name="egypt_question1">baghdad is capital of egypt</string>
+    <string name="egypt_question2">pyramids are in cairo</string>
+    <string name="egypt_question3">nile does not cross cairo </string>
+    <string name="egypt_question4"> iscandria is egyptian city</string>
+
+    <string name="usa_question1_1_1">usa is latin country</string>
+    <string name="usa_question1_1_2">currency of usa is dollar</string>
+    <string name="usa_question1_1_3">sample of dollar currency is $ </string>
+
+    <string name="usa_question1_2_1">newyourk is capital of usa</string>
+    <string name="usa_question1_2_2">sanaa is an american city</string>
+    <string name="usa_question1_2_3">washington is capital of usa</string>
+
+    <string name="usa_question1_3_1">usa is a in the north of brazil</string>
+    <string name="usa_question1_3_2">usa has a border with maxicano</string>
+    <string name="usa_question1_3_3">usa is a in asia</string>
+
+
+
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+
+    <string name="correct">اجابة صحيحة</string>
+    <string name="incorrect">اجابة خاطئة</string>
+
+    <string name="true_btn">False</string>
+    <string name="false_btn">True</string>
+    <string name="next_btn">next</string>
+    <string name="prev_btn">prev</string>
+
+    <string name="egypt_question1_1_1">pyramads are in jezah</string>
+    <string name="egypt_question1_1_2">sana\'a is the capital of egypt</string>
+    <string name="egypt_question1_1_3">iscandria is an egyptian city</string>
+    <string name="egypt_question1_2_1">khofo is an egyptian king</string>
+    <string name="egypt_question1_2_2">Nile is in egypt</string>
+    <string name="egypt_question1_2_3">egypt is located in Asia</string>
+    <string name="egypt_question1_3_1">bor saeed is an egyptian city</string>
+    <string name="egypt_question1_3_2">Om kaltho is an egyptian singer</string>
+    <string name="egypt_question1_3_3">egypt is located in Africa</string>
+</resources>

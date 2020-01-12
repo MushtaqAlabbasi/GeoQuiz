@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/true_rounded_button"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/true_check" />
+
+                <TextView
+                    android:id="@+id/t_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="true score"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="#DBDBDB"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/false_rounded_button"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/false_check" />
+
+                <TextView
+                    android:id="@+id/f_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="false score"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="#DBDBDB" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/fist_star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/second_star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/star" />
+
+
+        <ImageView
+            android:id="@+id/third_star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/star" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/back_BTN"-->
+            <!--android:text="BACK"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
